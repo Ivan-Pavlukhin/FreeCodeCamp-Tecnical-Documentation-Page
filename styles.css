@@ -2,6 +2,25 @@ body {
   font-size: 20px;
 }
 
+.main-container {
+  display: flex;
+  max-width: 1430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar {
+  display: block;
+  max-width: calc((100% - 30px) / 4);
+}
+
+.main-doc {
+  max-width: calc((100% - 30px) / 4 * 3);
+  margin-left: auto;
+}
+
 @media screen and (max-width: 560px) {
   body {
     font-size: 10px;
