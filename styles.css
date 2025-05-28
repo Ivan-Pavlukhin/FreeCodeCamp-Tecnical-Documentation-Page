@@ -34,7 +34,7 @@ h6 {
 .navbar {
   display: block;
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: auto;
   max-width: calc((100% - 30px) / 4);
   height: 100%;
   border-right: 2px solid var(--main-text-color);
